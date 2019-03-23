@@ -182,3 +182,36 @@ input[type=button], input[type=submit], input[type=reset] {
     padding-bottom: 1%;
     width: 10%;
 }
+
+@media screen and (max-width: 980px) {
+    /* shrink down navbar, shrink and left float(?) container
+    w/n container */
+    .content {
+        width: auto;
+    }
+    header {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* shrink navbar, fit container to screen w/ some margin, */
+    
+    .content {
+        width: auto;
+    }
+    header {
+        width: auto;
+    }
+
+    /* p { 
+        color: red;
+    } */
+}
+
+@media screen and (max-width: 640px) {
+    /* collapse naviems under namebox, collapse container into a column */
+    .content {
+        width: auto;
+    }
+}
