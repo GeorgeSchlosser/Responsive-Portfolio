@@ -210,7 +210,7 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 
 @media screen and (max-width: 640px) {
-    /* collapse naviems under namebox, collapse container into a column */
+    /* collapse navitems under namebox, collapse container into a column */
     .content {
         width: auto;
     }
